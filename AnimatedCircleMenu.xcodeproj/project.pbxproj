@@ -12,6 +12,7 @@
 		47AB16961E84542300211E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB16941E84542300211E58 /* Main.storyboard */; };
 		47AB16981E84542300211E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AB16971E84542300211E58 /* Assets.xcassets */; };
 		47AB169B1E84542300211E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB16991E84542300211E58 /* LaunchScreen.storyboard */; };
+		47AB16A41E84571C00211E58 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB16A31E84571C00211E58 /* DesignableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		47AB16971E84542300211E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47AB169A1E84542300211E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47AB169C1E84542300211E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AB16A31E84571C00211E58 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		47AB168F1E84542300211E58 /* AnimatedCircleMenu */ = {
 			isa = PBXGroup;
 			children = (
+				47AB16A21E8456F400211E58 /* IBDesignable */,
 				47AB16901E84542300211E58 /* AppDelegate.swift */,
 				47AB16921E84542300211E58 /* ViewController.swift */,
 				47AB16941E84542300211E58 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				47AB169C1E84542300211E58 /* Info.plist */,
 			);
 			path = AnimatedCircleMenu;
+			sourceTree = "<group>";
+		};
+		47AB16A21E8456F400211E58 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				47AB16A31E84571C00211E58 /* DesignableButton.swift */,
+			);
+			name = IBDesignable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				47AB16931E84542300211E58 /* ViewController.swift in Sources */,
 				47AB16911E84542300211E58 /* AppDelegate.swift in Sources */,
+				47AB16A41E84571C00211E58 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
